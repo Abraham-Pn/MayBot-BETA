@@ -52,9 +52,10 @@ let MayBot = async (m, { conn }) => {
   }
 };
 
-MayBot.help = ['update'];
-MayBot.tags = ['owner'];
-MayBot.command = ['update'];
+MayBot.ejemplo = ['update'];
+MayBot.tag = ['owner'];
+MayBot.comando = ['update'];
+MayBot.descripcion = ['Este comando matiene al bot activo y esta disponible solo para los creadores del bot.'];
 MayBot.rowner = true;
 
 export default MayBot
