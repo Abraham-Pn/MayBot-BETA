@@ -367,7 +367,7 @@ class WhatsAppBot {
             version,
             auth: state,
             logger,
-            browser: ['MayBot', 'Chrome', '121.0.0.0'],
+            browser: ['Windows', 'Chrome', '121.0.0.0'],
             syncFullHistory: false,
             markOnlineOnConnect: false,
             printQRInTerminal: false,
