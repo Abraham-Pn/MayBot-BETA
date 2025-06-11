@@ -39,7 +39,7 @@ class WhatsAppBot {
     constructor() {
         this.sock = null
         this.commands = new Map()
-        this.prefix = '.'
+        this.prefix = ['/', '.']
         this.loadCommands()
     }
 
@@ -66,7 +66,7 @@ class WhatsAppBot {
                 }
             }
             
-            console.log(`${successful}📚 Total de comandos cargados: ${this.commands.size}`)
+            
         } catch (error) {
             console.log(`${error}Error leyendo carpeta MayPlugins:`, error.message)
         }
