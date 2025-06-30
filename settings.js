@@ -1,6 +1,6 @@
 // 👑 Dueños del bot (pueden usar comandos especiales como update, broadcast, etc)
 export const owner = [
-  '1234567890@s.whatsapp.net', // Tu número con @s.whatsapp.net
+  '5212203832129@s.whatsapp.net', // Tu número con @s.whatsapp.net
   // Puedes añadir más si quieres: 'otro@s.whatsapp.net',
 ];
 
@@ -14,7 +14,7 @@ export const prems = []; // Aquí puedes poner IDs premium
 export const lenguaje = 'es'; // 'es' para español, 'en' para inglés, etc
 
 // 📛 Nombre del bot
-export const botname = 'MayBot';
+export const botname = 'Abraham_PRO_YT';
 
 // 🧸 Nombre del creador
 export const ownername = 'Maycol';
@@ -23,7 +23,7 @@ export const ownername = 'Maycol';
 export const myweb = 'https://tucanal.com'; // opcional
 
 // 🎨 Frase o bio del bot
-export const bio = '✨ Soy un bot kawaii hecho por Maycol ✨';
+export const bio = '✨ Soy un bot con comandos prohibidos ✨';
 
 // 💌 Mensaje de contacto o soporte
 export const support = 'Si tienes dudas, contacta a: wa.me/1234567890';
